@@ -9,7 +9,7 @@
             "name": "Launch",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceRoot}/build/memstat.exe",
+            "program": "${workspaceRoot}/build/Debug/memstat.exe",
             "args": [],
             "cwd": "${workspaceRoot}"
         }

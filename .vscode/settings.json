@@ -1,5 +1,5 @@
 {
     "makefile.configureOnOpen": true,
-    "cmake.generator": "MinGW Makefiles",
+    "cmake.generator": "Ninja Multi-Config",
     "files.autoGuessEncoding": true,
 }
