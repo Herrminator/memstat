@@ -1,0 +1,19 @@
+/****************************************************************************
+
+
+memstat.rc
+
+produced by VisualAge Resource Workshop
+
+
+*****************************************************************************/
+
+#include "memstat.h"
+
+
+IDD_MAIN DIALOG 0, 0, 200, 8
+STYLE WS_POPUP | WS_VISIBLE | WS_BORDER | WS_SYSMENU
+FONT 7, "Arial"
+{
+ LTEXT "PHYS 0K/0K  PAGE 0K/0K TIME 00:00", IDS_INFO, 0, 0, 200, 8
+}

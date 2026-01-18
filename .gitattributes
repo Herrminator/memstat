@@ -1,0 +1,6 @@
+*             text=auto
+.*            text eol=lf
+*.sh          eol=lf
+*.patch       eol=lf
+.vscode/*     eol=lf
+*.cmd         eol=crlf

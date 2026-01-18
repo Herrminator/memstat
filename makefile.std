@@ -1,0 +1,33 @@
+#**********************************************************************#
+# C/S-Antragssytem standard makefile                                   #
+#                                                                      #
+#   fÅr einzelne Projekte muss angegeben werden:                       #
+#      P=<projektname>                                                 #
+#      SRCDIR=<vollstÑndiger pfad des produktiven Quell-Verzeichnisses #
+#                                                                      #
+#   exportierte Header-Dateien                                         #
+#      HEADERS=<header1> <header2> ...                                 #
+#                                                                      #
+#   zusÑtzlich benîtigte Module: (neben <projektname>.obj)             #
+#      OBJ=<obj1> <obj2> ...                                           #
+#                                                                      #
+#   benîtigte Libraries:                                               #
+#      ADDLIB=<libfile1>+<libfile2>+...                                #
+#                                                                      #
+#   optional:                                                          #
+#      DLL=YES, PM=PM, DEB=YES                                         #
+#                                                                      #
+#**********************************************************************#
+P=MemStat
+SRCDIR=U:\JOHLER\C\MemStat
+DLL=NO
+PM=PM
+DEB=YES
+UTIL=NO
+NODEF=YES
+ADDLIB=USER32.LIB ADVAPI32.LIB COMDLG32.LIB GDI32.LIB
+
+#**********************************************************************#
+#    !!!!! Die folgenden Zeilen dÅrfen nicht verÑndert werden !!!!!    #
+#**********************************************************************#
+!INCLUDE <ARAGSTD.MAK>

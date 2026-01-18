@@ -1,0 +1,5 @@
+{
+    "makefile.configureOnOpen": true,
+    "cmake.generator": "MinGW Makefiles",
+    "files.autoGuessEncoding": true,
+}

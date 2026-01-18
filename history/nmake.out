@@ -1,0 +1,20 @@
+
+IBM(R) Program Maintenance Utility for Windows(R)
+Version 3.50.004 Aug  7 1997
+Copyright (C) IBM Corporation 1988-1995
+Copyright (C) Microsoft Corp. 1988-1991
+All rights reserved.
+
+NMAKE :  warning U4006:  special macro undefined : '$$(@B).$(EXT)'
+	icc -DUNICODE /Gs- /Gm+ /DES32TO16 /Sems /Q /qautoimported   /Ti /Gh /Fo.\make.nt\memstat.OBJ /c memstat.c
+NMAKE :  warning U4006:  special macro undefined : '$$(@B).$(EXT)'
+	icc -DUNICODE /Gs- /Gm+ /DES32TO16 /Sems /Q /qautoimported   /Ti /Gh /Fo.\make.nt\loadstr.obj /c loadstr.c
+	SET INCLUDE
+INCLUDE=.;D:\IBMCPPW\BINDINGS;D:\IBMCPPW\INCLUDE;D:\IBMCPPW\SDK\WINH;D:\IBMCPPW\SDK\WINH\WINNT;D:\IBMCPPW\SDK\WINH\WIN95;C:\ObjREXX\API;;E:\CPROG\MemStat
+	resport -r memstat.rc
+Der Befehl "vcenv" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+	mv memstat.res make.nt\memstat.res
+mv: memstat.res not found
+NMAKE :  fatal error U1077:  'mv' : return code '1'
+Stop.

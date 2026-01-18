@@ -1,0 +1,32 @@
+#
+# MED project file
+#
+project=MemStat
+workDir=
+incDir=
+createTags=1
+Compile= Compile	 nmake.exe	 -a make.nt\%N.obj	 .*: error.*	 .*: warning.*	 .*: informational.*	 (^.*)\([0-9]+:[0-9]+\).*	 ^.*\(([0-9]+):[0-9]+\).*	 ^.*\([0-9]+:([0-9]+)\).*	 3	 15	 0	 1	 0	 0	 	 1	 compile.bmp	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0
+Make= Make	 nmake.exe	 P=%J	 .*: error.*	 .*: warning.*	 .*: informational.*	 (^.*)\([0-9]+:[0-9]+\).*	 ^.*\(([0-9]+):[0-9]+\).*	 ^.*\([0-9]+:([0-9]+)\).*	 3	 15	 1	 1	 0	 0	 	 1	 make.bmp	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0
+Debug= Debug	 rexx.exe	 ibmdebug make.nt\%J.exe %P	 	 	 	 	 	 	 3	 15	 0	 0	 0	 0	 	 1	 debug.bmp	 1	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0
+Execute= Execute	 cmd.exe	 /c make.nt\%J.exe %P	 	 	 	 	 	 	 3	 15	 0	 0	 0	 0	 	 1	 run.bmp	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0
+Usercmd1= Run in separate window	 cmd.exe	 /c start "Running in separate window" make.nt/%J.exe %P	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 execute.bmp	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0
+Usercmd2= Rebuild all	 nmake.exe	 -a P=%J	 .*: error.*	 .*: warning.*	 .*: informational.*	 (^.*)\([0-9]+:[0-9]+\).*	 ^.*\(([0-9]+):[0-9]+\).*	 ^.*\([0-9]+:([0-9]+)\).*	 3	 15	 1	 1	 0	 0	 	 1	 tool.bmp	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0
+Usercmd3= Usercmd3	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0
+Usercmd4= Usercmd4	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0
+Usercmd5= Usercmd5	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0
+Usercmd6= Usercmd6	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0
+Usercmd7= Usercmd7	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0
+Usercmd8= Usercmd8	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0
+Usercmd9= Usercmd9	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0
+fileGroup1=C/C++	
+options1=0	0	0	1	1	1	0
+filter1=*.c;*.cpp;*.cxx;*.cc
+fileGroup2=Header	
+options2=0	0	0	1	1	1	0
+filter2=*.h;*.hpp;*.hxx;*.hh
+fileGroup3=Project	
+options3=0	0	0	1	0	1	0
+filter3=*mak*;*.def;*.rc;
+fileGroup4=All	
+options4=0	0	0	0	1	1	0
+filter4=*

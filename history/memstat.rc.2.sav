@@ -1,0 +1,283 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "memstat.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG 0, 0, 220, 8
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_BORDER | WS_SYSMENU
+FONT 7, "Arial"
+BEGIN
+    LTEXT           "PHYS 0K/0K  PAGE 0K/0K TIME 00:00",IDS_INFO,0,0,320,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,2,0,2
+ PRODUCTVERSION 0,2,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004b0"
+        BEGIN
+            VALUE "Comments", "Display brief statistics about free/used memory resources."
+            VALUE "CompanyName", "Thomas Johler EDV"
+            VALUE "FileDescription", "Memory statistics display"
+            VALUE "FileVersion", "0, 2, 0, 2"
+            VALUE "InternalName", "memstat"
+            VALUE "LegalCopyright", "Copyright © Thomas Johler 1998-2001"
+            VALUE "OriginalFilename", "memstat.exe"
+            VALUE "ProductName", "Thomas Johler EDV memstat"
+            VALUE "ProductVersion", "0, 2, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON                    "memstat.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDM_ONTOP               "Always on top"
+    IDM_PRCVIEW             "Start %s"
+    IDM_DEFPOS              "Default Position"
+    IDM_OPTIONS             "Select Program..."
+    IDM_FGCOLOR             "Foreground Color..."
+    IDM_BGCOLOR             "Background Color..."
+    IDM_ABOUT               "Help / About..."
+    IDM_LOW                 "Low\t(5 sec)"
+    IDM_NORMAL              "Normal\t(1 sec)"
+    IDM_HIGH                "High\t(.1 sec)"
+    IDM_HIDE                "Hide Taskbar Icon"
+    IDM_UPDATE              "Update Frequency"
+	IDM_SECONDS             "Show Seconds"
+	IDS_ABOUT               "          © Thomas Johler 1998-2001\n\n- Doubleclick to start your favorite Program\n- Drag to change position\n- Right button..., uh, you know already!"
+    IDS_PROGTITLE           "Select Your Favourite Program To Start"
+    IDS_FILTER0             "All Files"
+    IDS_FILTER1             "Executables"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PATHEXT             "*.exe;*.cmd;*.com;*.bat;*.rex"
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDM_ONTOP               "Im Vordergrund"
+    IDM_PRCVIEW             "%s starten"
+    IDM_DEFPOS              "Standardposition"
+    IDM_OPTIONS             "Programm auswählen..."
+    IDM_FGCOLOR             "Vordergrundfarbe..."
+    IDM_BGCOLOR             "Hintergrundfarbe..."
+    IDM_ABOUT               "Hilfe / Über..."
+    IDM_LOW                 "Lang\t(5 sec)"
+    IDM_NORMAL              "Normal\t(1 sec)"
+    IDM_HIGH                "Kurz\t(0,1 sec)"
+    IDM_HIDE                "Icon verstecken"
+    IDM_UPDATE              "Aktualisierungszeit"
+	IDM_SECONDS             "Sekunden anzeigen"
+	IDS_ABOUT               "          © Thomas Johler 1998-2001\n\n- Doppelklick startet ihr Lieblingsprogramm\n- Einfach ziehen, um die Position zu ändern\n- Rechter Mausknopf..., ah, das kennen sie schon!"
+    IDS_PROGTITLE           "Wählen sie ihr Lieblingsprogram"
+    IDS_FILTER0             "Alle Dateien"
+    IDS_FILTER1             "Ausführbare Dateien"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""memstat.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Switzerland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DES)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN_SWISS
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDM_ONTOP               "Im Vordergrund"
+    IDM_PRCVIEW             "%s starten"
+    IDM_DEFPOS              "Standardposition"
+    IDM_OPTIONS             "Programm auswählen..."
+    IDM_FGCOLOR             "Vordergrundfarbe..."
+    IDM_BGCOLOR             "Hintergrundfarbe..."
+    IDM_ABOUT               "Hilfe / Über..."
+    IDM_LOW                 "Lang\t(5 sec)"
+    IDM_NORMAL              "Normal\t(1 sec)"
+    IDM_HIGH                "Kurz\t(0,1 sec)"
+    IDM_HIDE                "Icon verstecken"
+    IDM_UPDATE              "Aktualisierungszeit"
+	IDM_SECONDS             "Sekunden anzeigen"
+	IDS_ABOUT               "          © Thomas Johler 1998-2001\n\n- Doppelklick startet ihr Lieblingsprogramm\n- Einfach ziehen, um die Position zu ändern\n- Rechter Mausknopf..., ah, das kennen sie schon!"
+    IDS_PROGTITLE           "Wählen sie ihr Lieblingsprogram"
+    IDS_FILTER0             "Alle Dateien"
+    IDS_FILTER1             "Ausführbare Dateien"
+END
+
+#endif    // German (Switzerland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Austria) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEA)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN_AUSTRIAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDM_ONTOP               "Im Vordergrund"
+    IDM_PRCVIEW             "%s starten"
+    IDM_DEFPOS              "Standardposition"
+    IDM_OPTIONS             "Programm auswählen..."
+    IDM_FGCOLOR             "Vordergrundfarbe..."
+    IDM_BGCOLOR             "Hintergrundfarbe..."
+    IDM_ABOUT               "Hilfe / Über..."
+    IDM_LOW                 "Lang\t(5 sec)"
+    IDM_NORMAL              "Normal\t(1 sec)"
+    IDM_HIGH                "Kurz\t(0,1 sec)"
+    IDM_HIDE                "Icon verstecken"
+    IDM_UPDATE              "Aktualisierungszeit"
+	IDM_SECONDS             "Sekunden anzeigen"
+	IDS_ABOUT               "          © Thomas Johler 1998-2001\n\n- Doppelklick startet ihr Lieblingsprogramm\n- Einfach ziehen, um die Position zu ändern\n- Rechter Mausknopf..., ah, das kennen sie schon!"
+    IDS_PROGTITLE           "Wählen sie ihr Lieblingsprogram"
+    IDS_FILTER0             "Alle Dateien"
+    IDS_FILTER1             "Ausführbare Dateien"
+END
+
+#endif    // German (Austria) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
